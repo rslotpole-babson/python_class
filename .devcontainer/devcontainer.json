@@ -1,0 +1,49 @@
+{
+    "name": "Python Dev Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+        "github-cli": "latest",
+        "ghcr.io/devcontainers/features/powershell:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.emojisense",
+                "michaelCurrin.auto-commit-msg",
+                "ms-python.black-formatter",
+                "github.codespaces",
+                "github.vscode-pull-request-github",
+                "github.github-vscode-theme",
+                "ms-toolsai.jupyter",
+                "esbenp.prettier-vscode",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ericsia.pythonsnippets3",
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "clangd.clangd",
+                "hashicorp.terraform",
+                "ms-vscode.azure-arm",
+                "hashicorp.terraform-docs",
+                "ms-vscode.powershell",
+                "formulahendry.code-runner"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+                "python.terminal.activateEnvironment": true,
+                "terminal.integrated.profiles.windows": {
+                    "PowerShell": {
+                        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                        "args": [
+                            "-NoExit",
+                            "-Command",
+                            "& { ${workspaceFolder}\\venv\\Scripts\\Activate.ps1; Import-Module PSReadLine; Clear-Host }"
+                        ]
+                    }
+                },
+                "terminal.integrated.defaultProfile.windows": "PowerShell"
+            }
+        }
+    },
+    "postCreateCommand": "git config --local commit.gpgsign false && git config --local branch.master.mergeOptions '--allow-unrelated-histories' && bash ./.devcontainer/setup.sh"
+}

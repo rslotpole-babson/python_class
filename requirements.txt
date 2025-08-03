@@ -1,0 +1,4 @@
+
+# Python, VS Code, and Git need to be installed manually.
+# To install the recommended VS Code extensions, run:
+# ./install_extensions.ps1

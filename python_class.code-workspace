@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+        "python.terminal.activateEnvironment": true,
+        "terminal.integrated.profiles.windows": {
+            "PowerShell": {
+                "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "args": [
+                    "-NoExit",
+                    "-Command",
+                    "& { ${workspaceFolder}\\venv\\Scripts\\Activate.ps1; Import-Module PSReadLine; Clear-Host }"
+                ]
+            }
+        },
+        "terminal.integrated.defaultProfile.windows": "PowerShell"
+    }
+}
