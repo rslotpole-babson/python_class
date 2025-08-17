@@ -5,7 +5,8 @@ step 3: click on "Use this template" -> "create new repository"
 step 4: Make the repository name: "python-class-YOURNAME"
 step 5: click on "create repository"
 step 6: click on "Code" -> "Codespaces" -> "Create codespace on main"
-step 7:
+step 7:![commit](commit.png)
+
 
 run the first 3 git commands only once
 
