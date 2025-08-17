@@ -17,6 +17,7 @@
                 ]
             }
         },
-        "terminal.integrated.defaultProfile.windows": "PowerShell"
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
+        "git.untrackedChanges": "hidden"
     }
 }
