@@ -1,12 +1,8 @@
 
 step 1: log into your github account  
-
 step 2: In the address bar go to: https://github.com/rslotpole-babson/python_class  
-
 step 3: click on "Use this template" -> "create new repository"  
-
 step 4: Make the repository name: "python-class-YOURNAME"  
-
 step 5: click on "create repository"  
 
 step 6: click on "Code" -> "Codespaces" -> "Create codespace on main"  
