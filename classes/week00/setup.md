@@ -1,6 +1,11 @@
 
 step 1: log into your github account  
-step 2: In the address bar go to: https://github.com/rslotpole-babson/python_class  
+step 2: In the same browser open a new tab and go to the link sent to you in annoucements from canvas  
+step 3: Accept the assignment  
+
+The class repo (teacher's copy) is called python_class.  When you accept the assignment GitHUb creates
+your very own copy called rslotpole-babson/python-GITHUB_USER
+
 step 3: click on "Use this template" -> "create new repository"  
 step 4: Make the repository name: "python-class-YOURNAME"  
 step 5: click on "create repository"  
