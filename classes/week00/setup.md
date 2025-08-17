@@ -4,13 +4,19 @@ step 2: In the same browser open a new tab and go to the link sent to you in ann
 step 3: Accept the assignment  
 
 The class repo (teacher's copy) is called python_class.  When you accept the assignment GitHUb creates
-your very own copy called rslotpole-babson/python-GITHUB_USER
+your very own copy called rslotpole-babson/python-YOUR_GITHUB_USER_NAME  
+
+step 4: Go back to github.com and refresh the page.  You should now see your copy of the repo.
+        click on it.
+step 5: click on the green box marked CODE, click on Codespaces, click on Create codespace on main
 
 step 3: click on "Use this template" -> "create new repository"  
 step 4: Make the repository name: "python-class-YOURNAME"  
 step 5: click on "create repository"  
 
 step 6: click on "Code" -> "Codespaces" -> "Create codespace on main"  
+step 7: click on hamburger in upper left corner, click on FILE, click on PREFERENCES, click on SETTINGS
+step 8: In Search setting enter git.untrack. change MIXED to HIDDEN. close settings
 
 step 7:![commit](commit.png)  
 
